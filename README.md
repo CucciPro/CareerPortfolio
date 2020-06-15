@@ -8,4 +8,4 @@
 * CSS
 
 ## Mockup
-<img src="./images/CareerPortfolio.png">
+<img src="./assets/images/CareerPortfolio.png">
