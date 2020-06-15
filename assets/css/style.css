@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #7ab1b8;
+  }
+
+body {
+    /* more on this crazy alphanumerical value in a minute! */
+    color: #0f143b;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  .hero {
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  
