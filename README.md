@@ -6,3 +6,6 @@
 ## Built With
 * HTML
 * CSS
+
+## Mockup
+<img src="./images/CareerPortfolio.png">
