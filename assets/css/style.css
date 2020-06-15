@@ -7,6 +7,7 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
+    background-color: #2f4427;
   }
 
 .hero {
@@ -170,4 +171,69 @@ section {
 .contact-info ul li {
     border-bottom: 5px solid;
     font-size: 20px;
+}
+
+footer {
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+@media screen and (max-width: 980px) {
+    header {
+       justify-content: center;
+        position: relative;
+    }
+
+    header h1 {
+        width: 300px;
+        text-align: center;
+        padding: 5px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        justify-content: center;
+    }
+
+    .details {
+        padding: 0;
+        width: 80%;
+    }
+
+    .section-title {
+        text-align: center;
+        flex: 50%;
+        border-right: none;
+        border-bottom: 3px solid;
+    }
+
+    header h1 {
+        padding: 5px;
+        text-align: center;
+    }
+
+    header nav ul li a {
+        margin-bottom: 20px;
+        line-height: 1.8;
+    }
+
+    .about div {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    header {
+        justify-content: center;
+    }
+
+    header h1 {
+        padding: 5px;
+        text-align: center;
+    }
+
 }
