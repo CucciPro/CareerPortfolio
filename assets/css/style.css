@@ -2,12 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #7ab1b8;
+    color: #0f143b;
   }
 
 body {
     /* more on this crazy alphanumerical value in a minute! */
-    color: #0f143b;
     font-family: Helvetica, Arial, sans-serif;
   }
 
@@ -15,10 +14,77 @@ body {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     background-position: center;
+    padding: 25% 5% 3% 0;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     flex-wrap: wrap;
     align-items: flex-start;
   }
 
-  
+  header {
+    padding: 0px 30px 20px 0;
+    background-color: #424242;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+
+    header h1 {
+        background-color: #64854e;
+        color: #282726;
+        padding: 5px 5px 5px 100px;
+        font-weight: bold;
+        font-size: 40px;
+        margin:0;
+    }
+
+    header a {
+        text-decoration: none;
+        color: #64854e;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+    }
+
+    header nav ul li {
+        margin: 0 20px;
+    }
+
+    header nav ul li a {
+        padding: 0 5px 5px 5px;
+        border-bottom: 3px solid;
+        font-size: 22px;
+    }
+
+    header nav ul li a:hover {
+        background-color: #64854e;
+        color: #424242;
+    }
+
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .section-title {
+        width: 20%;
+        border-right: 3px solid;
+        text-align: right;
+        padding-right: 15px;
+        font-size: 36px;
+        padding: 0 20px;
+    }
+
+    .details {
+        width: 70%;
+        padding-left: 25px;
+     }
