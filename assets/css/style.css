@@ -129,7 +129,7 @@ section {
 }
 
 .item1 {
-    background-image: url("../images/RunBuddy.png");
+    background-image: url("../images/Weed It & Reap.png");
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
 }
@@ -147,7 +147,7 @@ section {
 }
 
 .item5 {
-    background-image: url("../images/Weed It & Reap.png");
+    background-image: url("../images/RunBuddy.png");
 }
 
 .item-description {
